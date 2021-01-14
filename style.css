@@ -1,17 +1,6 @@
-*{
-    background-color: #f2f2;
-    font-family: Raleway, sans-serif;
-}
-
-.container {
+.container{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    align-content: flex-end;
-}
-
-.item{
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
 }
 
