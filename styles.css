@@ -1,10 +1,27 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local(downloads\raleway\Raleway-Medium.ttf);
+}
+
+body{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
 nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 
+strong {
+    font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+}
+
 #info {
-    font-size: 14px;
+    font-size: 12px;
 }
 
