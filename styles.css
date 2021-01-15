@@ -1,8 +1,10 @@
-
-
-.container{
+nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+}
+
+#info {
+    font-size: 14px;
 }
 
