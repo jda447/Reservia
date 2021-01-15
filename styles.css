@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Raleway';
-    src: local(downloads\raleway\Raleway-Bold.ttf);
+    src: local(downloads\raleway\Raleway);
 }
 
 body{
@@ -11,7 +11,37 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    word-spacing: 1em;
+    font-size: 13px;
+    line-height: 3em;
+}
+
+a{
+    text-decoration: none;
+    word-spacing: 50em;
+}
+
+.accom {
+    color: #0065FC;
+    font-weight: 500;
+}
+
+.activ {
+    color: black;
+}
+
+.signup {
+    color: #0065FC;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 17px;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight:350;
+    line-height: 0.8em;
 }
 
 strong {
