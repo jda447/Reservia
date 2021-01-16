@@ -7,31 +7,35 @@ body{
     font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+.container {
     font-size: 13px;
     line-height: 3em;
-}
-
-a{
+    height: 50px;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .accom {
     color: #0065FC;
     font-weight: 500;
+    position: relative;
+    right: 160px;
 }
 
 .activ {
     color: black;
+    position: relative;
+    right: 100px;
 }
 
 .signup {
     color: #0065FC;
     font-weight: 700;
+    position: relative;
+    right: 40px;
 }
 
 h1 {
