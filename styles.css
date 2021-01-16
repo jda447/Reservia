@@ -10,6 +10,7 @@ body{
 nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-end;
     font-size: 13px;
     line-height: 3em;
@@ -17,7 +18,6 @@ nav {
 
 a{
     text-decoration: none;
-    word-spacing: 50em;
 }
 
 .accom {
@@ -35,23 +35,25 @@ a{
 }
 
 h1 {
-    font-size: 17px;
+    font-size: 17.5px;
 }
 
 h2 {
-    font-size: 12px;
-    font-weight:350;
-    line-height: 0.8em;
+    font-size: 12.5px;
+    font-weight:375;
+    line-height: 0.5em;
 }
 
 strong {
-    font-size: 17px;
+    font-size: 17.5px;
 }
 
-p {
-  font-size: 12px;
-  line-height: 1.8em;
+section {
+  font-size: 12.5px;
 }
+
+i {
+  color: #0065FC;
 
 #info {
     font-size: 12px;
