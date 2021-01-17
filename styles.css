@@ -43,19 +43,17 @@ h1 {
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 13px;
     font-weight:450;
     line-height: 0.5em;
 }
 
-section {
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-}
-
 .icons {
-    border: thin solid silver;
+    display: flex;
+    width: 600px;
+    border: 2px solid silver;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px;
 }
 
 i {
@@ -63,6 +61,12 @@ i {
 }
 
 p {
-    font-size: 12px;
-}
+    display: flex;
+    width: 500px;
+    font-size: 13px;
+  }
+  
+  p:before {
+    padding-right: 4px;
+  }
 
