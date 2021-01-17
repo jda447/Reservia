@@ -48,14 +48,6 @@ h2 {
     line-height: 0.5em;
 }
 
-.icons {
-    display: flex;
-    width: 600px;
-    border: 2px solid silver;
-    padding: 10px 5px 10px 5px;
-    border-radius: 20px;
-}
-
 i {
   color: #0065FC;
 }
@@ -70,3 +62,17 @@ p {
     padding-right: 4px;
   }
 
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  span {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    border: 2px solid silver;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px;
+    margin: 30px 0px 30px 0px;
+  }
