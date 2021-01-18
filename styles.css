@@ -84,44 +84,35 @@ p {
 p:before {
     padding-right: 4px;
 }
-
-.sbar {
-    height: 50vh;
-    padding: 0 35%;
-}
-  
-.bg-gray {
-    background: #fff;
-}
   
 .search-group {
     display: flex;
     width: 100%;
-    margin: 2em;
-    position: relative;
+    margin: 25px 0px 5px 0px;
 }
   
 .search-group:before {
     content: "";
     font-size: 0.84em;
     position: absolute;
-    left: 1.5em;
-    top: 1.1em;
+    left: 0.5;
+    top: 0.5em;
     color: #fff;
 }
   
 .search-input, .button-search {
     padding: 0.687em 2em;
+    margin: 0px 0px 0px 0px;
 }
   
 .search-input {
     transition: 0.25s 0.25s color 0.25s;
     padding: 0.3em 0.6em 0.3em 0.6em;
-    width: 100%;
+    width: 20%;
     height: 45px;
-    border: solid 2px #cecfcf;
+    border: solid 2px #F2F3F4;
     border-right: none;
-    border-radius: 2em 0 0 2em;
+    border-radius: 10px 0px 0px 10px;
     background: #fff;
     box-sizing: border-box;
 }
@@ -129,59 +120,56 @@ p:before {
 .search-input::-moz-placeholder {
     -moz-transition: color 0.25s;
     transition: color 0.25s;
-    color: #abacac;
+    color: #F2F3F4;
     font-size: 0.95em;
-    -webkit-font-smoothing: antialias;
 }
 
 .search-input:-ms-input-placeholder {
     -ms-transition: color 0.25s;
     transition: color 0.25s;
-    color: #abacac;
+    color: #F2F3F4;
     font-size: 0.95em;
-    -webkit-font-smoothing: antialias;
 }
 
 .search-input::placeholder {
     transition: color 0.25s;
-    color: #abacac;
+    color: #F2F3F4;
     font-size: 0.95em;
-    -webkit-font-smoothing: antialias;
 }
   
 input.search-input:focus {
-    transition: background 0.25s, border-color 0.25s;
-    background: rgba(0, 0, 0, 0.075);
-    border-color: rgba(0, 0, 0, 0.015);
+    transition:  0.25s, border-color 0.25s;
+    background: white(0, 0, 0, 0.075);
+    border-color: white(0, 0, 0, 0.015);
     outline: none;
 }
 
 input.search-input:focus::-moz-placeholder {
     -moz-transition: color 0.25s;
     transition: color 0.25s;
-    color: #898989;
+    color: #F2F3F4;
 }
 
 input.search-input:focus:-ms-input-placeholder {
     -ms-transition: color 0.25s;
     transition: color 0.25s;
-    color: #898989;
+    color: #F2F3F4;
 }
 
 input.search-input:focus::placeholder {
     transition: color 0.25s;
-    color: #898989;
+    color: #F2F3F4;
 }
   
 .button-search {
-    transition: background 0.25s, color 0.25s;
+    transition: 0.25s, color 0.25s;
     border: none;
-    border-radius: 0 2em 2em 0;
+    border-radius: 0 10px 10px 0;
     background: #0065fc;
 }
   
 .button-search:hover {
-    transition: background 0.25s, color 0.25s;
-    background: #898989;
+    transition: 0.25s, color 0.25s;
+    background: #F2F3F4;
     color: #fff;
 }
