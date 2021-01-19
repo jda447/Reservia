@@ -169,6 +169,11 @@ input.search-input:focus::placeholder {
     color: #DEEBFF;
 }
 
+.fa-stack{
+    position: relative;
+    left: -20px;
+}
+
 i {
   color: #0065FC;
 }
