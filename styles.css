@@ -221,3 +221,12 @@ i {
     font-weight: 440;
     margin-top: -10px;
 }
+
+#card1 {
+    display: flex;
+    background-color: #F2F3F4;
+    border-radius: 16px;
+    width: 61%;
+    height: 510px;
+    margin: 20px 0px 0px 0px;
+}
