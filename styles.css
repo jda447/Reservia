@@ -222,11 +222,24 @@ i {
     margin-top: -10px;
 }
 
-#card1 {
+.cards {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1 {
     background-color: #F2F3F4;
     border-radius: 16px;
-    width: 61%;
+    width: 66%;
     height: 510px;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px;
+}
+
+.card2 {
+    background-color: #F2F3F4;
+    border-radius: 16px;
+    width: 32%;
+    height: 510px;
+    margin: 20px 80px 0px 36px;
 }
