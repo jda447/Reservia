@@ -49,6 +49,13 @@ h2 {
     line-height: 0.5em;
 }
 
+.fa-map-marker-alt {
+    color: black;
+    position: relative;
+    top: 0.8em;
+    right: 1em;
+}
+
 button {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     border: 2px solid #E1E1E1;
@@ -66,11 +73,13 @@ button {
     display: flex;
     width: 80%;
     margin: 25px 0px 5px 0px;
+    position: relative;
+    left: 1em;
 }
   
 .search-group:before {
     content: "";
-    font-size: 0.84em;
+    font-size: 1em;
     position: absolute;
     left: 0.5;
     top: 0.5em;
@@ -84,10 +93,11 @@ button {
 }
   
 .search-input {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     transition: 0.25s 0.25s color 0.25s;
-    padding: 0.3em 0.6em 0.3em 0.6em;
     width: 20%;
-    height: 45px;
+    height: 42px;
+    padding: 0.5em 1em;
     border: solid 2px #F2F3F4;
     border-right: none;
     border-radius: 10px 0px 0px 10px;
@@ -96,17 +106,18 @@ button {
 }
 
 .search-input::-moz-placeholder {
+
     -moz-transition: color 0.25s;
     transition: color 0.25s;
     color: #F2F3F4;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 
 .search-input:-ms-input-placeholder {
     -ms-transition: color 0.25s;
     transition: color 0.25s;
     color: #F2F3F4;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 
 .search-input::placeholder {
@@ -138,6 +149,7 @@ input.search-input:focus::placeholder {
     transition: color 0.25s;
     color: black;
     font-weight: bold;
+    font-size: 1.1em;
 }
   
 .button-search {
@@ -145,6 +157,8 @@ input.search-input:focus::placeholder {
     border: none;
     border-radius: 0 10px 10px 0;
     background: #0065fc;
+    height: 42px;
+    padding: 0.5em 1.2em;
 }
   
 .button-search:hover {
