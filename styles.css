@@ -174,11 +174,19 @@ input.search-input:focus::placeholder {
     left: -20px;
 }
 
+.fa-info {
+    font-size: 10px;
+    position: relative;
+    top: 3px;
+}
+
 i {
   color: #0065FC;
 }
 
-p {
+.accom-info {
+    position: relative;
+    left: 8px;
     display: flex;
     flex-direction: row wrap;
     width: 325px;
