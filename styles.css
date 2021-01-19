@@ -49,26 +49,6 @@ h2 {
     line-height: 0.5em;
 }
 
-.icons {
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    width: 750px;
-    font-weight: 800;
-    font-size: 14px;
-}
-
-.icon-background {
-    color: #DEEBFF;
-}
-
-i {
-  color: #0065FC;
-}
-
 button {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     border: 2px solid #E1E1E1;
@@ -80,15 +60,6 @@ button {
     margin: 20px 0px 20px 0px;
     font-size: 14px;
     transition-duration: 0.3s;
-}
-
-p {
-    display: flex;
-    flex-direction: row wrap;
-    width: 325px;
-    font-size: 12.5px;
-    font-weight: 440;
-    margin-top: -10px;
 }
   
 .search-group {
@@ -180,4 +151,33 @@ input.search-input:focus::placeholder {
     transition: 0.25s, color 0.25s;
     background: #deebff;
     color: #0065fc;
+}
+
+.icons {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 750px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.icon-background {
+    color: #DEEBFF;
+}
+
+i {
+  color: #0065FC;
+}
+
+p {
+    display: flex;
+    flex-direction: row wrap;
+    width: 325px;
+    font-size: 12.5px;
+    font-weight: 440;
+    margin-top: -10px;
 }
