@@ -60,8 +60,13 @@ h2 {
     margin-top: -3px;
 }
 
+.icon-background {
+    color: #DEEBFF;
+}
+
 i {
   color: #0065FC;
+  size: 14px;
 }
 
 button {
