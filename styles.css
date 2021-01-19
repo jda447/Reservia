@@ -185,6 +185,7 @@ button {
 
 button:hover {
     background-color: #DEEBFF;
+    transition-duration: 0.3s;
 }
 
 .icon-background {
