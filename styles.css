@@ -17,26 +17,28 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    line-height: 2%;
 }
 
 .accom {
     color: #0065FC;
     font-weight: 500;
     position: relative;
-    right: 160px;
+    right: 240px;
 }
 
 .activ {
     color: black;
     position: relative;
-    right: 100px;
+    right: 160px;
+    font-weight: 450px;
 }
 
 .signup {
     color: #0065FC;
-    font-weight: 700;
+    font-weight: 705;
     position: relative;
-    right: 40px;
+    right: 80px;
 }
 
 h1 {
@@ -51,30 +53,16 @@ h2 {
 
 .fa-map-marker-alt {
     color: black;
-    position: relative;
-    top: 0.8em;
-    right: 1em;
-}
-
-button {
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    border: 2px solid #E1E1E1;
-    background-color: white;
-    font-weight: bold;
-    box-sizing: border-box;
-    padding: 0px 12px;
-    border-radius: 40px;
-    margin: 20px 0px 20px 0px;
+    background-color: #F2F3F4;
     font-size: 14px;
-    transition-duration: 0.3s;
+    padding: 14px 16px;
+    border-radius: 10px 0px 0px 10px;
 }
   
 .search-group {
     display: flex;
     width: 80%;
     margin: 25px 0px 5px 0px;
-    position: relative;
-    left: 1em;
 }
   
 .search-group:before {
@@ -100,7 +88,6 @@ button {
     padding: 0.5em 1em;
     border: solid 2px #F2F3F4;
     border-right: none;
-    border-radius: 10px 0px 0px 10px;
     background: #fff;
     box-sizing: border-box;
 }
@@ -174,18 +161,37 @@ input.search-input:focus::placeholder {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    letter-spacing: 1%;
     width: 750px;
     font-weight: 800;
     font-size: 14px;
 }
 
+button {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    border: 2px solid #D6D6D6;
+    background-color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-left-style: none;
+    justify-content: center;
+    letter-spacing: 1%;
+    padding: 0px 20px 0px 0px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 40px;
+    font-size: 14px;
+    transition-duration: 0.3s;
+}
+
 .icon-background {
     color: #DEEBFF;
+    font-size: 214%;
 }
 
 .fa-stack{
     position: relative;
-    left: -20px;
+    left: -5px;
+    bottom: 1px;
 }
 
 .fa-info {
@@ -196,14 +202,16 @@ input.search-input:focus::placeholder {
 
 i {
   color: #0065FC;
+  font-size: 75%;
 }
 
 .accom-info {
     position: relative;
-    left: 8px;
+    left: 12px;
+    bottom: 2px;
     display: flex;
     flex-direction: row wrap;
-    width: 325px;
+    width: 320px;
     font-size: 12.5px;
     font-weight: 440;
     margin-top: -10px;
