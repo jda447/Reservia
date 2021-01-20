@@ -222,11 +222,30 @@ i {
     margin-top: -10px;
 }
 
-#card1 {
+.cards {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1, .card2 {
     background-color: #F2F3F4;
     border-radius: 16px;
-    width: 61%;
     height: 510px;
-    margin: 20px 0px 0px 0px;
+}
+
+.card1 {
+    width: 66%;
+    margin: 20px 0px;
+}
+
+.card2 {
+    width: 32%;
+    margin: 20px 80px 0px 36px;
+}
+
+.accimages {
+    display: flex;
+    flex-flow: row wrap;
+    
 }
