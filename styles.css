@@ -234,18 +234,34 @@ i {
     height: 510px;
 }
 
-.card1 {
-    width: 66%;
-    margin: 20px 0px;
-}
-
-.card2 {
-    width: 32%;
-    margin: 20px 80px 0px 36px;
+section {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #F2F3F4;
+    width: 60%;
+    margin: 40px 10px;
+    border-radius: 16px;
+    height: 510px;
 }
 
 .accimages {
     display: flex;
     flex-flow: row wrap;
-    
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 40px 10px;
+}
+
+aside {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: #F2F3F4;
+    width: 32%;
+    border-radius: 16px;
+    height: 510px;
+}
+
+article {
+    height: 325px;
 }
