@@ -235,10 +235,6 @@ i {
 }
 
 section {
-    display: flex;
-    flex-flow: row wrap;
-    background-color: #F2F3F4;
-    width: 60%;
     margin: 40px 10px;
     border-radius: 16px;
     height: 510px;
@@ -247,21 +243,16 @@ section {
 .accimages {
     display: flex;
     flex-flow: row wrap;
+    width: 60%;
     justify-content: space-around;
-    align-content: space-around;
-    margin: 40px 10px;
+    align-items: center;
 }
 
 aside {
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
+    float: right;
     background-color: #F2F3F4;
     width: 32%;
     border-radius: 16px;
     height: 510px;
-}
-
-article {
-    height: 325px;
+    align-content: flex-start;
 }
