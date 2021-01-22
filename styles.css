@@ -223,6 +223,10 @@ i {
 }
 
 section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
 }
 
 aside {
@@ -245,7 +249,7 @@ aside {
     flex-direction: column;
 }
 
-#card1 {
+.card1 {
     background-color: #F2F3F4;
 	width: 60%;
     border-radius: 16px;
@@ -269,4 +273,8 @@ p {
 .fa-chart-line {
     color: black;
     margin: 0px 0px 0px 180px;
+}
+
+.card3 {
+    background-color: #F2F3F4;
 }
