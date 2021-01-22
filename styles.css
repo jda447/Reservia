@@ -24,13 +24,13 @@ body{
     color: #0065FC;
     font-weight: 500;
     position: relative;
-    right: 240px;
+    right: 170px;
 }
 
 .activ {
     color: black;
     position: relative;
-    right: 160px;
+    right: 110px;
     font-weight: 450px;
 }
 
@@ -38,7 +38,7 @@ body{
     color: #0065FC;
     font-weight: 705;
     position: relative;
-    right: 80px;
+    right: 30px;
 }
 
 h1 {
@@ -236,32 +236,32 @@ i {
 
 section {
     display: flex;
-    flex-flow: row wrap;
-    background-color: #F2F3F4;
-    width: 60%;
-    margin: 40px 10px;
+    flex-direction: row;
+    justify-content: space-between;
     border-radius: 16px;
     height: 510px;
+    margin: 40px 0px 0px 0px;
 }
 
 .accimages {
     display: flex;
     flex-flow: row wrap;
+    width: 60%;
     justify-content: space-around;
-    align-content: space-around;
-    margin: 40px 10px;
+    align-items: center;
 }
 
-aside {
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
+#card1 {
     background-color: #F2F3F4;
-    width: 32%;
+	width: 60%;
     border-radius: 16px;
     height: 510px;
 }
 
-article {
-    height: 325px;
+#card2 {
+    background-color: #F2F3F4;
+    width: 32%;
+    border-radius: 16px;
+    height: 510px;
+    margin: 0px 60px 0px 0px;
 }
