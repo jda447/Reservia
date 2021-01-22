@@ -222,32 +222,27 @@ i {
     margin-top: -10px;
 }
 
-.cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.card1, .card2 {
-    background-color: #F2F3F4;
-    border-radius: 16px;
-    height: 510px;
-}
-
 section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+
+aside {
+    float: right;
+    background-color: #F2F3F4;
+    width: 32%;
     border-radius: 16px;
     height: 510px;
-    margin: 20px 0px 0px 0px;
 }
 
 .accimages {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 160px 60px 80px 60px;
+    margin: 160px 40px 80px 40px;
+}
+
+.popimages {
+    display: flex;
+    flex-direction: column;
 }
 
 #card1 {
@@ -266,7 +261,7 @@ section {
 }
 
 p {
-    margin: 35px 0px 0px 30px;
+    margin: 35px 0px 0px 40px;
     font-size: 17.5px;
     color: black;
 }
