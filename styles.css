@@ -24,13 +24,13 @@ body{
     color: #0065FC;
     font-weight: 500;
     position: relative;
-    right: 170px;
+    right: 270px;
 }
 
 .activ {
     color: black;
     position: relative;
-    right: 110px;
+    right: 200px;
     font-weight: 450px;
 }
 
@@ -38,7 +38,7 @@ body{
     color: #0065FC;
     font-weight: 705;
     position: relative;
-    right: 30px;
+    right: 120px;
 }
 
 h1 {
@@ -222,33 +222,27 @@ i {
     margin-top: -10px;
 }
 
-.cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.card1, .card2 {
-    background-color: #F2F3F4;
-    border-radius: 16px;
-    height: 510px;
-}
-
 section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+
+aside {
+    float: right;
+    background-color: #F2F3F4;
+    width: 32%;
     border-radius: 16px;
     height: 510px;
-    margin: 40px 0px 0px 0px;
 }
 
 .accimages {
     display: flex;
     flex-flow: row wrap;
-    width: 60%;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    margin: 160px 40px 80px 40px;
+}
+
+.popimages {
+    display: flex;
+    flex-direction: column;
 }
 
 #card1 {
@@ -264,4 +258,15 @@ section {
     border-radius: 16px;
     height: 510px;
     margin: 0px 60px 0px 0px;
+}
+
+p {
+    margin: 35px 0px 0px 40px;
+    font-size: 17.5px;
+    color: black;
+}
+
+.fa-chart-line {
+    color: black;
+    margin: 0px 0px 0px 180px;
 }
