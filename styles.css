@@ -246,9 +246,8 @@ section {
 .accimages {
     display: flex;
     flex-flow: row wrap;
-    width: 60%;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    margin: 160px 60px 80px 60px;
 }
 
 #card1 {
@@ -264,4 +263,9 @@ section {
     border-radius: 16px;
     height: 510px;
     margin: 0px 60px 0px 0px;
+}
+
+p {
+    margin: 35px 0px 0px 30px;
+    font-size: 17.5px;
 }
