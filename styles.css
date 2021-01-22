@@ -24,13 +24,13 @@ body{
     color: #0065FC;
     font-weight: 500;
     position: relative;
-    right: 240px;
+    right: 170px;
 }
 
 .activ {
     color: black;
     position: relative;
-    right: 160px;
+    right: 110px;
     font-weight: 450px;
 }
 
@@ -38,7 +38,7 @@ body{
     color: #0065FC;
     font-weight: 705;
     position: relative;
-    right: 80px;
+    right: 30px;
 }
 
 h1 {
@@ -235,9 +235,12 @@ i {
 }
 
 section {
-    margin: 40px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border-radius: 16px;
     height: 510px;
+    margin: 40px 0px 0px 0px;
 }
 
 .accimages {
@@ -248,11 +251,17 @@ section {
     align-items: center;
 }
 
-aside {
-    float: right;
+#card1 {
+    background-color: #F2F3F4;
+	width: 60%;
+    border-radius: 16px;
+    height: 510px;
+}
+
+#card2 {
     background-color: #F2F3F4;
     width: 32%;
     border-radius: 16px;
     height: 510px;
-    align-content: flex-start;
+    margin: 0px 60px 0px 0px;
 }
