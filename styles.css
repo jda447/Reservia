@@ -258,7 +258,7 @@ aside {
     margin: -520px 100px;
 }
 
-.popimages {
+.popcards {
     display: flex;
     flex-flow: column wrap;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -294,5 +294,14 @@ aside {
         height: 150px;
         width: 188px;
         z-index: 3;
+}
 
+article {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.activcards {
+    display: flex;
+    flex-flow: row wrap;
 }
