@@ -223,15 +223,17 @@ i {
 }
 
 section {
-    display: flex;
-    flex-flow: row wrap;
+    
+}
+
+.card1 {
     background-color: #F2F3F4;
 	width: 60%;
     border-radius: 16px;
     height: 500px;
-    justify-content: center;
-    align-content: center;
     margin: 20px 0px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .accomcards {
@@ -243,6 +245,14 @@ section {
     width: 188px;
     z-index: 2;
     margin: 10px 10px;
+}
+
+#card2 {
+    background-color: #F2F3F4;
+    width: 32%;
+    border-radius: 16px;
+    height: 510px;
+    margin: 0px 60px 0px 0px;
 }
 
 aside {
@@ -271,29 +281,9 @@ aside {
     margin: 20px 10px;
 }
 
-#card2 {
-    background-color: #F2F3F4;
-    width: 32%;
-    border-radius: 16px;
-    height: 510px;
-    margin: 0px 60px 0px 0px;
-}
-
 .fa-chart-line {
     color: black;
     margin: 0px 0px 0px 180px;
-}
-
-.card3 {
-    background-color: #F2F3F4;
-}
-
-.accomcard1 {
-        border-radius: 16px;
-        padding: 10px 5px;
-        height: 150px;
-        width: 188px;
-        z-index: 3;
 }
 
 article {
@@ -304,4 +294,8 @@ article {
 .activcards {
     display: flex;
     flex-flow: row wrap;
+}
+
+strong {
+    
 }
