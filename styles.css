@@ -228,7 +228,7 @@ section {
     background-color: #F2F3F4;
 	width: 60%;
     border-radius: 16px;
-    height: 530px;
+    height: 500px;
     justify-content: center;
     align-content: center;
     margin: 20px 0px;
@@ -248,10 +248,14 @@ section {
 aside {
     float: right;
     background-color: #F2F3F4;
-    width: 32%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
     border-radius: 16px;
-    height: 530px;
-    margin: -550px 50px;
+    height: 500px;
+    margin: -520px 100px;
 }
 
 .popimages {
@@ -264,7 +268,7 @@ aside {
     height: 100px;
     width: 265px;
     z-index: 2;
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
 
 #card2 {
