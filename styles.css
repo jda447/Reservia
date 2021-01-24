@@ -229,7 +229,7 @@ section {
     height: 530px;
     margin: 20px 0px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-content: center;
 }
@@ -245,7 +245,13 @@ section {
 }
 
 section > h1 {
-    margin: 30px 0px 20px 50px;
+    position: relative;
+    left: 10px;
+}
+
+section > h4 {
+    position: relative;
+    left: 10px;
 }
 
 section > div > img {
