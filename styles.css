@@ -244,6 +244,10 @@ section {
     margin: 10px 10px;
 }
 
+section > h1 {
+    margin: 30px 0px 20px 50px;
+}
+
 section > div > img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -257,8 +261,8 @@ aside {
     float: right;
     background-color: #F2F3F4;
     display: flex;
-    flex-flow: column wrap;
-    width: 28%;
+    flex-flow: row wrap;
+    width: 26%;
     border-radius: 16px;
     height: 530px;
     margin: -550px 100px;
@@ -269,14 +273,18 @@ aside {
     transition: 0.3s;
     border-radius: 16px;
     padding: 5px 5px;
-    height: 96px;
+    height: 106px;
     width: 265px;
-    margin: 30px 10px;
+    margin: 0px 28px;
+}
+
+aside > h1 {
+    margin: 30px 30px 0px 40px;
 }
 
 .fa-chart-line {
     color: black;
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 100px;
 }
 
 article {
