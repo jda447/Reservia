@@ -223,17 +223,15 @@ i {
 }
 
 section {
-    
-}
-
-.card1 {
     background-color: #F2F3F4;
 	width: 60%;
     border-radius: 16px;
-    height: 500px;
+    height: 530px;
     margin: 20px 0px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .accomcards {
@@ -245,6 +243,11 @@ section {
     width: 188px;
     z-index: 2;
     margin: 10px 10px;
+}
+
+.accomheader {
+    position: relative;
+    left: 500px;
 }
 
 #card2 {
@@ -277,7 +280,6 @@ aside {
     padding: 10px 5px;
     height: 100px;
     width: 265px;
-    z-index: 2;
     margin: 20px 10px;
 }
 
@@ -294,8 +296,4 @@ article {
 .activcards {
     display: flex;
     flex-flow: row wrap;
-}
-
-strong {
-    
 }
