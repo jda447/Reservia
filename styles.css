@@ -295,10 +295,21 @@ aside > h1 {
 
 article {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    height: 450px;
+    width: 95%
 }
 
 .activcards {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 16px;
+    margin: 0px 20px;
     display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px 0px 40px 0px;
+}
+
+article > div > img {
+    border-radius: 16px 16px 0px 0px;
 }
