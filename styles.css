@@ -244,7 +244,7 @@ section {
 }
 
 section > h1 {
-    margin: 15px -10px;
+    margin: 10px -10px;
     position: relative;
     left: 24px;
 }
@@ -316,3 +316,26 @@ article > div > img {
     border-radius: 16px 16px 0px 0px;
 }
 
+footer {
+    background-color: #F2F3F4;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space;
+    position: relative;
+    text-decoration: none;
+    height: 135px;
+    width: 95%;
+    right: 50px;
+    padding: 15px 50px;
+    font-weight: 750;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    line-height: 1.8em;
+    font-weight: 500;
+}
