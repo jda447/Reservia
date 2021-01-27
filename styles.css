@@ -13,7 +13,7 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 0px 0px;
 }
 
 .topmenu {
@@ -21,7 +21,7 @@ body{
     text-decoration: none;
     font-size: 13px;
     font-weight: 500;
-    margin: 20px 40px;
+    margin: 20px 40px 0px 35px;
     line-height: 0.8em;
 }
 
@@ -195,16 +195,20 @@ i {
   font-size: 75%;
 }
 
-.accom-info {
-    position: relative;
-    left: 12px;
-    bottom: 2px;
+.info > .fa-circle {
+    color: #F2F3F4;
     display: flex;
-    flex-direction: row wrap;
-    width: 320px;
-    font-size: 12.5px;
-    font-weight: 440;
-    margin-top: -10px;
+    flex-direction: row;
+} 
+
+.info > .fa-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.accom-info {
+    display: flex;
+    flex-direction: row;
 }
 
 section {
@@ -227,6 +231,7 @@ section {
     height: 150px;
     width: 188px;
     margin: 10px 15px;
+    background-color: white;
 }
 
 section > h1 {
@@ -271,6 +276,7 @@ aside {
     height: 106px;
     width: 265px;
     margin: 0px 28px;
+    background-color: white;
 }
 
 aside > h1 {
@@ -288,6 +294,10 @@ article {
     justify-content: flex-end;
     height: 475px;
     width: 96%
+}
+
+article > h1 {
+    margin: 0px 0px 0px 0px;
 }
 
 .activcards {
