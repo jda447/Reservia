@@ -16,7 +16,7 @@ body{
     margin: 20px 20px 0px 0px;
 }
 
-.topmenu {
+.navmenu {
     color: #0065FC;
     text-decoration: none;
     font-size: 13px;
@@ -75,10 +75,10 @@ h2 {
     border-right: none;
     background: #fff;
     box-sizing: border-box;
+    color: black;
 }
 
 .search-input::-moz-placeholder {
-
     -moz-transition: color 0.25s;
     transition: color 0.25s;
     color: #F2F3F4;
@@ -160,18 +160,6 @@ button {
     font-size: 14px;
 }
 
-.infocircle {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-.infocircle > .fa-stack{
-    color: #f2f3f4;
-}
-
 header > .icons {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     display: flex;
@@ -183,18 +171,6 @@ header > .icons {
     width: 750px;
     font-weight: 800;
     font-size: 14px;
-}
-
-header > .infocircle  .fa-circle {
-    color: #F2F3F4;
-    font-size: 22px;
-    font-weight: 50;
-}
-
-header > .infocircle  .fa-info {
-    font-size: 9px;
-    position: relative;
-    bottom: 9px;
 }
 
 button:hover {
@@ -212,9 +188,24 @@ i {
   font-size: 75%;
 }
 
-.accom-info {
+.infocircle {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+header > .infocircle  .fa-circle {
+    color: #F2F3F4;
+    font-size: 22px;
+    font-weight: 50;
+}
+
+header > .infocircle  .fa-info {
+    font-size: 9px;
+    position: relative;
+    bottom: 9px;
 }
 
 section {
@@ -258,10 +249,6 @@ section > div > img {
     border-top-right-radius: 10px;
 }
 
-aside > div > img {
-    border-radius: 10px 0px 0px 10px;
-}
-
 aside {
     float: right;
     background-color: #F2F3F4;
@@ -292,6 +279,10 @@ aside > h1 {
 .fa-chart-line {
     color: black;
     margin: 0px 0px 0px 140px;
+}
+
+aside > div > img {
+    border-radius: 10px 0px 0px 10px;
 }
 
 article {
