@@ -172,7 +172,7 @@ button {
     color: #f2f3f4;
 }
 
-.icons {
+header > .icons {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
@@ -183,6 +183,18 @@ button {
     width: 750px;
     font-weight: 800;
     font-size: 14px;
+}
+
+header > .infocircle  .fa-circle {
+    color: #F2F3F4;
+    font-size: 22px;
+    font-weight: 50;
+}
+
+header > .infocircle  .fa-info {
+    font-size: 9px;
+    position: relative;
+    bottom: 9px;
 }
 
 button:hover {
