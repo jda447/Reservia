@@ -8,40 +8,26 @@ body{
     margin-left: 50px;
 }
 
-.container {
-    font-size: 13px;
-    line-height: 3em;
-    height: 50px;
-    text-decoration: none;
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    margin: 20px 20px 0px 0px;
 }
 
-.accom {
+.topmenu {
     color: #0065FC;
+    text-decoration: none;
+    font-size: 13px;
     font-weight: 500;
-    position: relative;
-    right: 240px;
-}
-
-.activ {
-    color: black;
-    position: relative;
-    right: 170px;
-    font-weight: 450px;
-}
-
-.signup {
-    color: #0065FC;
-    font-weight: 705;
-    position: relative;
-    right: 80px;
+    margin: 20px 40px 0px 35px;
+    line-height: 0.8em;
 }
 
 h1 {
     font-size: 17.5px;
+    margin: 20px 0px;
 }
 
 h2 {
@@ -169,6 +155,23 @@ button {
     color: #0065fc;
 }
 
+.filter {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.infocircle {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.infocircle > .fa-stack{
+    color: #f2f3f4;
+}
+
 .icons {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     display: flex;
@@ -177,7 +180,7 @@ button {
     align-items: center;
     box-sizing: border-box;
     letter-spacing: 1%;
-    width: 740px;
+    width: 750px;
     font-weight: 800;
     font-size: 14px;
 }
@@ -192,38 +195,19 @@ button:hover {
     font-size: 215%;
 }
 
-.fa-stack{
-    position: relative;
-    left: -5px;
-    bottom: 1px;
-}
-
-.fa-info {
-    font-size: 10px;
-    position: relative;
-    top: 3px;
-}
-
 i {
   color: #0065FC;
   font-size: 75%;
 }
 
 .accom-info {
-    position: relative;
-    left: 12px;
-    bottom: 2px;
     display: flex;
-    flex-direction: row wrap;
-    width: 320px;
-    font-size: 12.5px;
-    font-weight: 440;
-    margin-top: -10px;
+    flex-direction: row;
 }
 
 section {
     background-color: #F2F3F4;
-	width: 64%;
+	width: 62%;
     border-radius: 16px;
     height: 520px;
     margin: 20px 0px;
@@ -241,12 +225,14 @@ section {
     height: 150px;
     width: 188px;
     margin: 10px 15px;
+    background-color: white;
 }
 
 section > h1 {
     margin: 10px -10px;
     position: relative;
     left: 24px;
+    bottom: 10px;
 }
 
 section > h4 {
@@ -270,7 +256,7 @@ aside {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    width: 28%;
+    width: 30%;
     border-radius: 16px;
     height: 520px;
     margin: -540px 50px;
@@ -284,6 +270,7 @@ aside {
     height: 106px;
     width: 265px;
     margin: 0px 28px;
+    background-color: white;
 }
 
 aside > h1 {
@@ -301,6 +288,10 @@ article {
     justify-content: flex-end;
     height: 475px;
     width: 96%
+}
+
+article > h1 {
+    margin: 0px 0px 0px 0px;
 }
 
 .activcards {
