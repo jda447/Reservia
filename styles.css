@@ -155,6 +155,23 @@ button {
     color: #0065fc;
 }
 
+.filter {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.infocircle {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.infocircle > .fa-stack{
+    color: #f2f3f4;
+}
+
 .icons {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     display: flex;
@@ -163,7 +180,7 @@ button {
     align-items: center;
     box-sizing: border-box;
     letter-spacing: 1%;
-    width: 730px;
+    width: 750px;
     font-weight: 800;
     font-size: 14px;
 }
@@ -178,32 +195,9 @@ button:hover {
     font-size: 215%;
 }
 
-.fa-stack{
-    position: relative;
-    left: -5px;
-    bottom: 1px;
-}
-
-.fa-info {
-    font-size: 10px;
-    position: relative;
-    top: 3px;
-}
-
 i {
   color: #0065FC;
   font-size: 75%;
-}
-
-.info > .fa-circle {
-    color: #F2F3F4;
-    display: flex;
-    flex-direction: row;
-} 
-
-.info > .fa-info {
-    display: flex;
-    flex-direction: row;
 }
 
 .accom-info {
