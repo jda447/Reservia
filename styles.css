@@ -16,7 +16,7 @@ body{
     margin: 20px 20px 0px 0px;
 }
 
-.topmenu {
+.navmenu {
     color: #0065FC;
     text-decoration: none;
     font-size: 13px;
@@ -75,10 +75,10 @@ h2 {
     border-right: none;
     background: #fff;
     box-sizing: border-box;
+    color: black;
 }
 
 .search-input::-moz-placeholder {
-
     -moz-transition: color 0.25s;
     transition: color 0.25s;
     color: #F2F3F4;
@@ -160,19 +160,7 @@ button {
     font-size: 14px;
 }
 
-.infocircle {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-.infocircle > .fa-stack{
-    color: #f2f3f4;
-}
-
-.icons {
+header > .icons {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
@@ -200,9 +188,24 @@ i {
   font-size: 75%;
 }
 
-.accom-info {
+.infocircle {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+header > .infocircle  .fa-circle {
+    color: #F2F3F4;
+    font-size: 22px;
+    font-weight: 50;
+}
+
+header > .infocircle  .fa-info {
+    font-size: 9px;
+    position: relative;
+    bottom: 9px;
 }
 
 section {
@@ -224,7 +227,7 @@ section {
     padding: 5px 5px;
     height: 150px;
     width: 188px;
-    margin: 10px 15px;
+    margin: 15px 15px;
     background-color: white;
 }
 
@@ -244,10 +247,6 @@ section > h4 {
 section > div > img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-aside > div > img {
-    border-radius: 10px 0px 0px 10px;
 }
 
 aside {
@@ -280,6 +279,10 @@ aside > h1 {
 .fa-chart-line {
     color: black;
     margin: 0px 0px 0px 140px;
+}
+
+aside > div > img {
+    border-radius: 10px 0px 0px 10px;
 }
 
 article {
