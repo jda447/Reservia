@@ -278,12 +278,16 @@ aside {
     font-size: 11.5px;
     position: relative;
     bottom: 110px;
-    left: 120px;
+    left: 110px;
 }
 
 .poptext > strong {
-    font-size: 14px;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 8px 0px;
+}
+
+.poptext > span {
+    color: #0065fc;
 }
 
 aside > h1 {
