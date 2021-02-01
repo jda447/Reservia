@@ -210,9 +210,9 @@ header > .infocircle  .fa-info {
 
 section {
     background-color: #F2F3F4;
-	width: 60%;
+	width: 62%;
     border-radius: 16px;
-    height: 520px;
+    height: 540px;
     margin: 20px 0px;
     display: flex;
     flex-flow: column wrap;
@@ -225,9 +225,9 @@ section {
     transition: 0.3s;
     border-radius: 16px;
     padding: 5px 5px;
-    height: 150px;
-    width: 188px;
-    margin: 15px 15px;
+    height: 165px;
+    width: 206px;
+    margin: 15px 10px;
     background-color: white;
 }
 
@@ -257,8 +257,8 @@ aside {
     justify-content: center;
     width: 28%;
     border-radius: 16px;
-    height: 520px;
-    margin: -540px 110px;
+    height: 540px;
+    margin: -560px 90px;
 }
 
 .popcards {
@@ -266,8 +266,8 @@ aside {
     transition: 0.3s;
     border-radius: 16px;
     padding: 5px 5px;
-    height: 106px;
-    width: 265px;
+    height: 122px;
+    width: 285px;
     background-color: white;
 }
 
@@ -277,17 +277,18 @@ aside {
     vertical-align: 10em;
     font-size: 11.5px;
     position: relative;
-    bottom: 110px;
-    left: 110px;
+    bottom: 130px;
+    left: 120px;
 }
 
 .poptext > strong {
     font-size: 13px;
-    margin: 8px 0px;
+    margin: 15px 0px 5px 0px;
 }
 
 .poptext > span {
     color: #0065fc;
+    margin: 20px 0px;
 }
 
 aside > h1 {
@@ -308,7 +309,7 @@ article {
     flex-flow: column wrap;
     justify-content: flex-end;
     height: 475px;
-    width: 94%
+    width: 96%
 }
 
 article > h1 {
