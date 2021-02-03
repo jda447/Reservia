@@ -208,6 +208,12 @@ header > .infocircle  .fa-info {
     bottom: 9px;
 }
 
+header > .icons .fa-stack {
+    position: relative;
+    right: 6px;
+    font-size: 18px;
+}
+
 section {
     background-color: #F2F2F2;
 	width: 62%;
