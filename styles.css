@@ -238,6 +238,10 @@ section {
     position: relative;
     left: 4px;
     top: 8px;
+    color: black;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -296,6 +300,7 @@ aside {
     position: relative;
     bottom: 130px;
     left: 120px;
+    color: black;
 }
 
 .poptext > strong {
@@ -347,6 +352,7 @@ article > h1 {
     position: relative;
     top: 10px;
     left: 15px;
+    color: black;
 }
 
 article > div > img {
