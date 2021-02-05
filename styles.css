@@ -394,6 +394,37 @@ footer > a {
         min-width: 300px;
     }
 
+    header {
+        height: 1000px;
+    }
+
+    .infocircle {
+        position: relative;
+        top: 200px;
+    }
+
+    .icons .filter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        position: relative;
+        bottom: 1260px;
+        right: 530px;
+        width: 300px; 
+    }
+
+    aside .fa-chart-line {
+        position: relative;
+        top: 3px;
+        right: 6px;
+    }
+
+    .popcards {
+        width: 280px;
+    }
+
     section {
         background: none;
         display: flex;
@@ -403,12 +434,12 @@ footer > a {
         position: relative;
         float: left;
         right: 230px;
-        top: 560px;
+        top: 100px;
     }
 
     section h4 {
         position: relative;
-        top: 860px;
+        top: 800px;
     }
 
     .accomcards {
@@ -419,28 +450,11 @@ footer > a {
         width: 280px;
     }
 
-    aside {
-        position: relative;
-        bottom: 830px;
-        right: 530px;
-        width: 300px; 
-    }
-
-    aside .fa-chart-line {
-        position: relative;
-        bottom: 20px;
-        display: flex;
-        justify-content: right;
-    }
-
-    .popcards {
-        width: 280px;
-    }
-
     article {
-        height: 2250px;
+        height: 1920px;
         position: relative;
         left: 10px;
+        bottom: 480px;
     }
 
     .activcards {
@@ -449,9 +463,12 @@ footer > a {
 
     .activcards img {
         width: 280px;
+        height: 140px;
+        object-fit: cover;
     }
 
     footer {
     height: 950px;
+    bottom: 480px;
     }
 }
