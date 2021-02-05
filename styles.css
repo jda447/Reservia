@@ -387,3 +387,66 @@ footer > a {
     line-height: 1.8em;
     font-weight: 500;
 }
+
+@media all and (max-device-width: 768px) {
+
+    body {
+        min-width: 300px;
+    }
+
+    nav {
+        
+    }
+
+    section {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        width: 768px;
+        position: relative;
+        float: left;
+        right: 230px;
+        top: 580px;
+    }
+
+    .accomcards {
+        width: 280px;
+    }
+
+    .accomcards img {
+        width: 280px;
+    }
+
+    aside {
+        position: relative;
+        bottom: 830px;
+        right: 520px;
+        width: 300px; 
+    }
+
+    aside .fa-chart-line {
+        position: relative;
+        bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: right;
+        align-items: flex-end;
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+
+    article {
+        height: 2250px;
+    }
+
+    footer {
+    height: 950px;
+    }
+}
