@@ -394,10 +394,6 @@ footer > a {
         min-width: 300px;
     }
 
-    nav {
-        
-    }
-
     section {
         background: none;
         display: flex;
@@ -407,7 +403,12 @@ footer > a {
         position: relative;
         float: left;
         right: 230px;
-        top: 580px;
+        top: 560px;
+    }
+
+    section h4 {
+        position: relative;
+        top: 860px;
     }
 
     .accomcards {
@@ -421,7 +422,7 @@ footer > a {
     aside {
         position: relative;
         bottom: 830px;
-        right: 520px;
+        right: 530px;
         width: 300px; 
     }
 
@@ -429,21 +430,25 @@ footer > a {
         position: relative;
         bottom: 20px;
         display: flex;
-        justify-content: center;
+        justify-content: right;
     }
 
-    .navbar {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: right;
-        align-items: flex-end;
-        width: 100%;
-        position: relative;
-        top: 20px;
+    .popcards {
+        width: 280px;
     }
 
     article {
         height: 2250px;
+        position: relative;
+        left: 10px;
+    }
+
+    .activcards {
+        width: 280px;
+    }
+
+    .activcards img {
+        width: 280px;
     }
 
     footer {
