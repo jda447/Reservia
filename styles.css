@@ -387,3 +387,88 @@ footer > a {
     line-height: 1.8em;
     font-weight: 500;
 }
+
+@media all and (max-device-width: 768px) {
+
+    body {
+        min-width: 300px;
+    }
+
+    header {
+        height: 1000px;
+    }
+
+    .infocircle {
+        position: relative;
+        top: 200px;
+    }
+
+    .icons .filter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        position: relative;
+        bottom: 1260px;
+        right: 530px;
+        width: 300px; 
+    }
+
+    aside .fa-chart-line {
+        position: relative;
+        top: 3px;
+        right: 6px;
+    }
+
+    .popcards {
+        width: 280px;
+    }
+
+    section {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        width: 768px;
+        position: relative;
+        float: left;
+        right: 230px;
+        top: 100px;
+    }
+
+    section h4 {
+        position: relative;
+        top: 800px;
+    }
+
+    .accomcards {
+        width: 280px;
+    }
+
+    .accomcards img {
+        width: 280px;
+    }
+
+    article {
+        height: 1920px;
+        position: relative;
+        left: 10px;
+        bottom: 480px;
+    }
+
+    .activcards {
+        width: 280px;
+    }
+
+    .activcards img {
+        width: 280px;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    footer {
+    height: 950px;
+    bottom: 480px;
+    }
+}
