@@ -388,7 +388,7 @@ footer > a {
     font-weight: 500;
 }
 
-@media all and (max-device-width: 768px) {
+@media (max-width: 991.98px) {
 
     body {
         min-width: 300px;
