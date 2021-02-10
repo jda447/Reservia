@@ -405,6 +405,17 @@ footer > a {
         min-width: 300px;
     }
 
+    .navbar > .navmenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .navbar img {
+        margin: 0px 300px 0px 0px;
+    }
+
     header {
         height: 1000px;
     }
