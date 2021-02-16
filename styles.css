@@ -409,7 +409,15 @@ footer > a {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        margin: 20px 100px 0px 0px;
+        margin: 120px 100px 0px 0px;
+        position: relative;
+        right: 385px;
+    }
+
+    .navbar > .navmenu > strong {
+        position: relative;
+        bottom: 55px;
+        right: 155px;
     }
 
     .navbar img {
@@ -420,19 +428,23 @@ footer > a {
         height: 1000px;
     }
 
-    .infocircle {
-        position: relative;
-        top: 00px;
-    }
-
-    .icons .filter {
+    header > .icons {
         display: flex;
         flex-direction: column;
+        position: relative;
+        top: 20px;
+        right: 250px;
+        margin: 5px 0px;
+    }
+
+    .infocircle {
+        position: relative;
+        top: 40px;
     }
 
     aside {
         position: relative;
-        bottom: 1620px;
+        bottom: 1320px;
         right: 530px;
         width: 300px; 
     }
@@ -456,12 +468,17 @@ footer > a {
         position: relative;
         float: left;
         right: 230px;
-        bottom: 240px;
+        top: 60px;
     }
 
     section h4 {
         position: relative;
         top: 860px;
+    }
+
+    section h6 {
+        position: relative;
+        top: 825px;
     }
 
     .accomcards {
@@ -476,7 +493,7 @@ footer > a {
         height: 1920px;
         position: relative;
         left: 10px;
-        bottom: 800px;
+        bottom: 500px;
     }
 
     .activcards {
@@ -491,6 +508,6 @@ footer > a {
 
     footer {
     height: 350px;
-    bottom: 780px;
+    bottom: 500px;
     }
 }
