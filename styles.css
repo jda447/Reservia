@@ -456,6 +456,10 @@ footer > a {
         top: 40px;
     }
 
+    .fa-star-grey {
+        color: #F2F2F2;
+    }
+
     aside {
         position: relative;
         bottom: 1320px;
