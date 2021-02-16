@@ -433,12 +433,6 @@ footer > a {
         top: 00px;
     }
 
-    .icons {
-        display: flex;
-        flex-direction: column wrap;
-        
-    }
-
     aside {
         position: relative;
         bottom: 1620px;
