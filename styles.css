@@ -281,7 +281,7 @@ a {
 }
 
 section > h2 {
-    margin: 10px -10px;
+    margin: 15px -10px;
     position: relative;
     left: 24px;
     font-size: 16px;
@@ -292,6 +292,15 @@ section h6 {
     left: 10px;
     margin: 10px 5px;
     color: black;
+}
+
+section i {
+    font-size: 9px;
+}
+
+.grey {
+    color: #F2F2F2;
+    font-size: 9px;
 }
 
 aside {
@@ -332,14 +341,9 @@ aside {
     margin: 15px 0px 5px 0px;
 }
 
-.poptext > span {
-    color: #0065fc;
-    margin: 15px 0px;
-}
-
 .popcards:hover {
     transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 aside > h2 {
@@ -355,6 +359,11 @@ aside > h2 {
 
 aside .popcards img {
     border-radius: 10px 0px 0px 10px;
+}
+
+aside > .fa-star {
+    display: flex;
+    justify-content: baseline;
 }
 
 article {
