@@ -361,11 +361,6 @@ aside .popcards img {
     border-radius: 10px 0px 0px 10px;
 }
 
-aside > .fa-star {
-    display: flex;
-    justify-content: baseline;
-}
-
 article {
     display: flex;
     flex-flow: column wrap;
@@ -422,7 +417,7 @@ footer {
 
 footer {
     display: flex;
-    flex-direction: column wrap;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
