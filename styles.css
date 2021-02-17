@@ -420,15 +420,20 @@ footer {
     margin: 20px 0px;
 }
 
-footer h4 {
-    font-size: 16px;
+footer {
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: flex-start;
 }
 
-footer > a {
+footer h4 {
+    font-size: 15px;
+}
+
+footer a {
     text-decoration: none;
     color: black;
     font-size: 12px;
-    line-height: 1.8em;
 }
 
 @media (max-width: 991.98px) {
