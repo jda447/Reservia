@@ -750,17 +750,26 @@ footer a {
     }
 
     article {
-        height: 2920px;
+        height: 4020px;
+    }
+
+    article > h2 {
+        font-size: 48px;
     }
 
     .activcards {
-        width: 280px;
+        width: 800px;
+        height: 400px;
     }
 
     .activcards img {
-        width: 280px;
-        height: 140px;
+        width: 800px;
+        height: 300px;
         object-fit: cover;
+    }
+
+    .activcards > strong {
+        font-size: 34px;
     }
 
     footer {
