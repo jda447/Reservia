@@ -257,7 +257,7 @@ section {
 }
 
 section .accomcards img {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
 }
 
 .accomtext {
@@ -312,7 +312,7 @@ aside {
     justify-content: center;
     width: 30%;
     border-radius: 16px;
-    height: 540px;
+    height: 580px;
     margin: -560px 70px;
 }
 
@@ -349,7 +349,7 @@ aside {
 
 aside > h2 {
     margin: 30px 0px 0px 0px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .fa-chart-line {
@@ -371,14 +371,15 @@ article {
 }
 
 article > h2 {
-    margin: 0px 0px 0px 0px;
-    font-size: 16px;
+    font-size: 32px;
+    position: relative;
+    bottom: 40px;
 }
 
 .activcards {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 16px;
+    border-radius: 30px;
     margin: 20px 0px;
     padding: 0px 0px 25px 0px;
     width: 250px;
@@ -393,12 +394,12 @@ article > h2 {
 }
 
 article > a img {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
 }
 
 .activcards:hover{
     transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 footer {
@@ -642,6 +643,7 @@ footer a {
     aside {
         position: relative;
         bottom: 2800px;
+        left: 40px;
         width: 850px;
         height: 1060px;
         display: flex;
@@ -704,8 +706,9 @@ footer a {
 
     section h2 {
         position: relative;
-        top: 0px;
-        font-size: 48px;
+        top: -60px;
+        left: 70px;
+        font-size: 42px;
     }
 
     section h6 {
@@ -715,13 +718,16 @@ footer a {
 
     .accomcards {
         width: 800px;
-        height: 500px;
+        height: 460px;
         border-radius: 30px;
+        position: relative;
+        left: 40px;
+        bottom: 30px;
     }
 
     section .accomcards img {
         width: 780px;
-        height: 300px;
+        height: 280px;
         border-radius: 30px 30px 0px 0px;
         margin: 5px 5px;
     }
@@ -744,22 +750,26 @@ footer a {
 
     section h6 {
         position: relative;
-        top: 2200px;
+        top: 2000px;
+        left: 60px;
         color: black;
-        font-size: 36px;
+        font-size: 40px;
     }
 
     article {
-        height: 4020px;
+        height: 4380px;
     }
 
-    article > h2 {
-        font-size: 48px;
+    article strong {
+        font-size: 32px;
     }
 
     .activcards {
         width: 800px;
         height: 400px;
+        position: relative;
+        left: 40px;
+        bottom: 320px;
     }
 
     .activcards img {
