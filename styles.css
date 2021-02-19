@@ -643,20 +643,20 @@ footer a {
         position: relative;
         bottom: 800px;
         width: 850px;
-        height: 1100px;
+        height: 1060px;
         display: flex;
         flex-direction: column;
     }
 
     aside > h2 {
-        font-size: 36px;
+        font-size: 38px;
         position: relative;
-        top: -60px;
+        top: -40px;
         left: 30px;
     }
 
     h2 > .fa-chart-line {
-        font-size: 36px;
+        font-size: 38px;
         margin: 40px 0px 0px 480px;
     }
 
@@ -665,16 +665,31 @@ footer a {
         transition: 0.3s;
         border-radius: 24px;
         padding: 5px 5px;
-        height: 300px;
-        width: 820px;
+        height: 270px;
+        width: 800px;
         background-color: white;
-        margin: 10px 10px 10px 10px;
+        margin: 14px 20px;
     }
 
     aside .popcards img {
         border-radius: 20px 0px 0px 20px;
-        height: 286px;
-        width: 286px;
+        height: 260px;
+        width: 254px;
+    }
+
+    .poptext {
+        display: flex;
+        flex-direction: column;
+        vertical-align: 10em;
+        font-size: 30px;
+        position: relative;
+        left: 300px;
+        bottom: 260px;
+        color: black;
+    }
+
+    .poptext strong {
+        font-size: 34px;
     }
 
     section {
@@ -686,12 +701,13 @@ footer a {
         position: relative;
         float: left;
         right: 230px;
-        bottom: -700px;
+        bottom: -1300px;
     }
 
-    section h4 {
+    section h2 {
         position: relative;
-        top: 860px;
+        top: 0px;
+        font-size: 26px;
     }
 
     section h6 {
@@ -708,10 +724,8 @@ footer a {
     }
 
     article {
-        height: 1920px;
-        position: relative;
-        left: 10px;
-        bottom: 150px;
+        height: 2920px;
+        
     }
 
     .activcards {
