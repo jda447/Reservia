@@ -635,8 +635,11 @@ footer a {
         font-size: 30px;
     }
 
-    .fa-star-grey {
+    .grey {
         color: #F2F2F2;
+        font-size: 26px;
+        position: relative;
+        top: 1px;
     }
 
     aside {
