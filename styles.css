@@ -623,9 +623,9 @@ footer a {
     }
     
     header > .infocircle  .fa-info {
-        font-size: 12px;
+        font-size: 16px;
         position: relative;
-        bottom: 4px;
+        bottom: 16px;
     }
     
     header > .icons .fa-stack {
@@ -641,15 +641,22 @@ footer a {
 
     aside {
         position: relative;
-        bottom: 900px;
-        right: 530px;
-        width: 300px; 
+        bottom: 800px;
+        width: 850px;
+        display: flex;
+        flex-direction: column;
     }
 
-    aside .fa-chart-line {
+    aside > h2 {
+        font-size: 36px;
         position: relative;
-        top: 3px;
-        right: 6px;
+        top: -50px;
+        left: 30px;
+    }
+
+    h2 > .fa-chart-line {
+        font-size: 36px;
+        margin: 40px 0px 0px 480px;
     }
 
     .popcards {
@@ -665,7 +672,7 @@ footer a {
         position: relative;
         float: left;
         right: 230px;
-        top: 400px;
+        bottom: -700px;
     }
 
     section h4 {
