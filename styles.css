@@ -573,6 +573,20 @@ footer a {
         font-size: 30px;
     }
 
+    .button-search {
+        transition: 0.25s, color 0.25s;
+        border: none;
+        border-radius: 20px 20px 20px 20px;
+        background: #0065fc;
+        height: 76px;
+        padding: 0.5em 0.5em;
+        
+    }
+
+    .filter {
+        font-size: 30px;
+    }
+
     button {
         font-family: 'Raleway', Arial, Helvetica, sans-serif;
         border: 2px solid #D6D6D6;
@@ -581,29 +595,24 @@ footer a {
         box-sizing: border-box;
         border-left-style: none;
         justify-content: center;
-        padding: 0px 20px 0px 0px;
+        padding: 10px 20px 10px 0px;
         margin: 20px 0px 20px 0px;
         border-radius: 40px;
-        font-size: 14px;
+        font-size: 26px;
         transition-duration: 0.5s;
-    }
-
-    .button-search {
-        transition: 0.25s, color 0.25s;
-        border: none;
-        border-radius: 20px 20px 20px 20px;
-        background: #0065fc;
-        height: 76px;
-        padding: 0.5em 1.2em;
     }
 
     header > .icons {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 320px;
+        top: 240px;
         right: 250px;
         margin: 5px 0px;
+    }
+
+    .fa-circle {
+        font-size: 200%;
     }
 
     .infocircle {
