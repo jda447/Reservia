@@ -757,6 +757,12 @@ footer a {
         font-size: 44px;
         position: relative;
         top: -160px;
+        left: 20px;
+    }
+
+    article > a {
+        position: relative;
+        left: 20px;
     }
 
     .activcards {
@@ -779,7 +785,21 @@ footer a {
     }
 
     footer {
-    height: 350px;
-    bottom: 150px;
+    height: 540px;
+    bottom: 40px;
+    }
+
+    footer h4 {
+        font-size: 26px;
+        position: relative;
+        left: 40px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        position: relative;
+        left: 40px;
     }
 }
